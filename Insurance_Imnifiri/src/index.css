@@ -1,4 +1,4 @@
-
+@import url('C:/Users/ANOUAR/Documents/Insurance_Website/Insurance_Imnifiri/node_modules/flag-icons/css/flag-icons.min.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,6 +17,8 @@
 section {
   overflow-x: hidden;
 }
+
+
 
   :root{
 

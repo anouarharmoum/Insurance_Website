@@ -1,0 +1,57 @@
+{
+    "navbar": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "team": "Team",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "home": {
+      "title": "Welcome to Iminifri Insurance",
+      "by":"by",
+      "description": "Discover comprehensive insurance solutions tailored to your needs. Join us and secure your future with confidence."
+    },
+    "services": {
+      "Bigtitle": "Services",
+      "title1": "Car Insurance",
+      "title2": "Health Insurance",
+      "title3": "Motorcycle Insurance",
+      "description1": "With our car insurance, you benefit from peace of mind at an affordable price. Whatever happens, we will help you quickly so that you can get back on the road in no time.",
+"description2": "In collaboration with our online health insurance partner, we offer basic, hospital, and other supplementary health insurances.",
+      "description3": "With our motorcycle insurance, you benefit from peace of mind at an affordable price. And if something happens, we will be there for you – without bureaucracy.",
+      "title4": "Civil Liability Insurance",
+  "description4": "Don't wait any longer and get started. Our private civil liability insurance covers the damages you may inadvertently cause to third parties.",
+  "title5": "Travel Insurance",
+  "description5": "Vacations are the best times of the year. To enjoy your trip with peace of mind, consider our travel insurance. Our coverage ensures you're protected against unexpected events, so you can focus on making memories.",
+  "title6": "Retirement Insurance",
+  "description6": "To build your financial future and ensure a comfortable retirement while maintaining a safety net against life's uncertainties and complete flexibility to react when changes occur."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Iminifri Insurance located in Demnate on Mohammed 5 street. IMINIFRI Insurances is managed by TAGOUG Ettijani, who has significant experience in the field before opening his own business. He received his accreditation in 2015 and operates as an individual, representing this company as a General Insurance Agent for the underwriting and management of insurance contracts."
+    },
+    "team": {
+      "title": "DISCOVER OUR TEAM",
+      "description1": "Manager",
+      "description2": "Developer",
+      "description3": "Human Resources"
+    },
+    "contact": {
+      "Bigtitle": "FIND & CONTACT US",
+      "title": "Contact Us",
+      "description": "We are here to help you",
+      "name": "Name",
+      "Gmail": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Submit"
+    },
+    "footer": {
+      "gretting":"Happy to have you visit us",
+      "p1": "created by",
+      "street": "Street Mohammed 5 Demnate",
+      "rights": "All rights reserved"
+    }
+  }
+  

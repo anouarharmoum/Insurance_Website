@@ -1,81 +1,44 @@
+import car from "../assets/pic.png";
+import logo from "../assets/Allianz.svg.png";
+import { useTranslation } from 'react-i18next';
 
-import Logo from  '../assets/logo2-modified.png'
-export default function Home(){
+export default function Home() {
+  const { t } = useTranslation();
+  return (
+    <>
+      <section id="home"className="  section container mx-auto grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8">
+        <div className=" p-8  flex flex-col justify-center items-center  ">
+          <h1 className="text-black-700 text-2xl lg:text-3xl font-bold text-center ">
+            {t("home.title")}
+          </h1>
 
-    return(
-        <>
-        {/* mb-10 */}
-        <header className="bg-white ">
-  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-    <div className="flex h-16 items-center justify-between">
-      <div className="md:flex md:items-center md:gap-12">
-        <a  href="#">
-          <span className="sr-only">Home</span>
-         <img src={Logo} alt=" " className= " block h-14" />
-        </a>
-      </div>
+          <div className="text-center">
+          <h2 className="text-black-200 text-xs  font-semibold ">{t("home.by")}</h2>
+            <a href="https://allianz.ma/" target="_blank">
+              {" "}
+              <img src={logo} alt="" />
+            </a>
+          </div>
 
-      <div className="hidden md:block">
-        <nav aria-label="Global">
-          <ul className="flex items-center gap-6 text-sm">
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
-            </li>
-
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
-            </li>
-
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
-            </li>
-
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
-            </li>
-
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
-            </li>
-
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div className="flex items-center gap-4">
-        <div className="sm:flex sm:gap-4">
-          <a
-            className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-            href="#"
-          >
-            Login
-          </a>
-
-          
+          <p className="text-gray-600 text-sm mt-5 text-center ">
+            {t("home.description")}
+           
+          </p>
         </div>
 
-        <div className="block md:hidden">
-          <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
+        <div className="   flex items-center justify-center">
+          <img
+            src={car}
+            alt="Car Insurance"
+            className="w-full h-auto rounded-md  animate-moveUpDown"
+          />
         </div>
-      </div>
-    </div>
-  </div>
-  
-</header>
-        </>
-    )
+      </section>
+
+     
+    </>
+  );
 }
+
+
+

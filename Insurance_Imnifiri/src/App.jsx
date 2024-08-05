@@ -1,7 +1,7 @@
 
-import Home from '../src/Components/Home'
+import Navbar from './Components/Navbar'
 import Products from '../src/Components/Products'
-import Homee from './Components/Homee'
+import Home from './Components/Home'
 import About from './Components/About'
 import Team from './Components/Team'
 import Contact from './Components/Contact'
@@ -12,12 +12,12 @@ function App() {
 
   return (
     <>   
+    <Navbar/>
     <Home/>
-    <Homee/>
     <Products/>
     <About/>
     <Team/>
-    <Contact/>
+    <Contact/> 
     <Footer/>
    
     </>

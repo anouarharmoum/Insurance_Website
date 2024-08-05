@@ -1,0 +1,63 @@
+{
+    "navbar": {
+        "home": "Accueil",
+        "services": "Services",
+        "about": "À propos",
+        "team": "Équipe",
+        "contact": "Contact",
+        "language": "Langue"
+    },
+    "home": {
+        "title": "Bienvenue chez Assurance Iminifri",
+        "by":"Par",
+        "description": "Découvrez des solutions d'assurance complètes adaptées à vos besoins. Rejoignez-nous et sécurisez votre avenir en toute confiance"
+    },
+    "services": {
+        "Bigtitle": " Services",
+        "title1": " Assurance auto",
+        "title2": "Assurance maladie",
+        "title3": "Assurance moto",
+        "description1": "Avec notre assurance automobile, vous bénéficiez d'une tranquillité d'esprit à un prix abordable. Quoi qu'il arrive, nous vous aiderons rapidement afin que vous puissiez reprendre la route en un rien de temps.",
+        "description2": "En collaboration avec notre partenaire d'assurance santé en ligne, nous offrons une assurance de base, hospitalière et d'autres assurances complémentaires pour votre santé.",
+
+        "description3": " Avec notre assurance moto, vous bénéficiez d'une tranquillité  d'esprit à un prix abordable. Et si quelque chose se produit,  nous serons là pour vous – sans bureaucratie.",
+        "title4": "Assurance responsabilité civile",
+        "description4":"N’attendez plus et lancez-vous. Notre assurance responsabilité civile privée prend en charge les dommages que vous pourriez causer par inadvertance à des tiers.",
+        "title5":"Assurance voyages",
+        "description5":"Les vacances sont les meilleurs moments de l’année. Pour profiter de votre voyage l’esprit tranquille, pensez à notre assurance voyages.",
+        "title6":"Assurance retraite",
+        "description6":"Pour construire votre avenir financier et vous assurer une retraite confortable tout en gardant un filet de sécurité face aux aléas de la vie et une flexibilité totale pour réagir quand des changements interviennent."
+    },
+    "about": {
+        
+        "title": "À propos de nous",
+        "description": "Assurance iminifri située à Demnate rue Mohammed 5. Assurances IMINIFRI est dirigée par TAGOUG Ettijani , ayant une expérience importante dans le domaine avant l’ouverture de sa propre entreprise, a eu son agrément en 2015 et exerce en tant que personne physique, Il représente cette compagnie dans le cadre d’un Agent Général d’assurances en vue de la souscription et de la gestion des contrats des branches d’assurances."
+    },
+    "team": {
+        "title": "DÉCOURVREZ NOTRE ÉQUIPE",
+        "description1": "Manager",
+  "description2": "Développeur",
+  "description3": "Ressources Humaines"
+       
+    },
+    "contact": {
+        "title1": "TROUVER & CONTACTEZ-NOUS",
+        "title2": "Contactez-nous",
+        "description": "Nous sommes la pour vous aider",
+        "name": "Nom",
+        "gmail": "Email ",
+        "phone":"Téléphone",
+        "message": "Message",
+        "submit": "Envoyer"
+        
+
+        
+        
+    },
+    "footer": {
+        "gretting":"Heureux , de nous rendre viste",
+        "p1":"creé par ",
+        "street":"Avenue Mohammed 5 Demnate",
+        "rights": "Tous droits réservés"
+    }
+}
